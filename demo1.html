@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="f1">
+
+    username <input type="text" name="user">
+    password <input type="password" name="pass" show="*">
+    <input type="submit" onclick="func1()">
+    </form>
+
+    <script>
+        function func1()
+        {
+            var a =document.f1.user.value;
+            var b =document.f1.pass.value;
+
+            if(a=="admin" && b=="admin@123") {
+                alert("user verify...")
+            }
+            else{
+                alert("user not verify")
+            }
+        }
+    </script>
+</body>
+</html>

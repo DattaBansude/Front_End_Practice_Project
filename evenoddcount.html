@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // a = [1 1  2  3  5 8 13 21 34]
+        const a =[ 1 , 1 , 2 , 3 , 5 , 8 , 13, 21,34]
+      var  evennum=0;
+       var oddnum=0
+        for(var i = 1; i<=a.length; i++)
+        {
+            if(a[i]%2==0)
+            {
+             evennum++;
+            }
+            else{
+               oddnum++;
+            }
+
+        }
+        document.write("<h1> the even count : : "+evennum);
+        document.write("<h1> the odd count : : "+oddnum);
+    </script>
+</body>
+</html>
