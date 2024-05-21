@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(215, 196, 196);
+    }
+</style>
+<body>
+    <h2>STUDENT ADDMISION FORM</h2>
+    <form action="" autocomplete="off">
+        <fieldset>
+            <!-- <legend>Personal Details</legend> -->
+            <label for="">Profile Photo</label>
+            <input type="file" name="profile">
+            <br><br>
+            <label for="">First Name</label>
+            <input type="text" name="myname" placeholder="Enter your first name"><br><br>
+            <label for="">Last Name</label>
+            <input type="text" name="myname" placeholder="Enter your last name">
+            <br><br>
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter your e-mail">
+            <br><br>
+            <label for="">Mobile No</label>
+            <input type="tel" name="mobile" pattern="[0-9]{10}" minlength="10" maxlength="10">
+            <br><br>
+            <label for="">Addresss</label>
+             <input type="text" name="addresss" >
+             <br><br>
+            <label for="">Date of Birth</label>
+            <input type="date" name="date">
+            <br><br>
+            <label for="">Gender</label><br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label><br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label>
+            <br><br>
+            <label for="blood">Blood Group: </label>
+            <select name="bloodgroup" id="blood">
+                <option value="">O+</option>
+                <option value="">O-</option>
+                <option value="">A+</option>
+                <option value="">A-</option>
+                <option value="">B+</option>
+                <option value="">B-</option>
+                <option value="">AB+</option>
+                <option value="">AB-</option>
+            </select>
+            <br><br>
+            <!-- <label for="">Hobbies</label><br>
+            <input type="checkbox" id="paint">
+            <label for="paint">Painting</label>
+            <input type="checkbox" id="learn">
+            <label for="learn">Learning</label>
+            <input type="checkbox" id="play">
+            <label for="play">playing</label><br><br> -->
+            <label for="">Nationality</label>
+            <input type="text" value="Indian" name="nationality">
+            <br><br>
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="">Java</option>
+                <option value="">Python</option>
+                <option value="">c++</option>
+                <option value="">.net</option>
+                <option value="">Data Science</option>
+                <option value="">Devops</option>
+            </select>
+            <br><br>
+            <input type="submit" value="save">
+        </fieldset>
+
+
+        
+    </form>
+</body>
+
+</html>

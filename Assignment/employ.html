@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Registration</title>
+    </head>
+    <body>
+    <form autocomplete="off">
+        <fieldset style="background-color: rgb(212, 225, 236);">
+        <h1>Employee Registration</h1>
+        <legend>Personal Details</legend>
+        Enter Name: <input type="text" id="name" name="name" placeholder="Enter Your First name">
+        <input type="text" id="name" name="name" placeholder="Enter Your Middle name" >
+        <input type="text" id="name" name="name" placeholder="Enter Your Last name"><br><br>
+        Enter Your Email : <input type="email" id="email" name="name" placeholder="E-mail"><br><br>
+        Enter Password: <input type="password" id="password" name="password"><br><br>
+        Enter Date Of Birth: <input type="date" id="date" name="date"><br><br>
+    </fieldset>
+    <br>
+<fieldset style="background-color: rgb(225, 218, 164);">
+        <legend>Address</legend>
+        Enter Street Address: <input type="text" id="address" name="address" placeholder="Street Address"><br><br>
+        Enter City: <input list="City" name ="city">
+        <datalist id="City">
+            <option>NAGAR</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+        </datalist>
+    
+        Enter State :<input type="text" id="State" name="State" placeholder="State"><br><br>
+        Enter Country: <input list="Country" name ="country">
+        <datalist id="Country">
+            <option>India</option>
+            <option>Brazil</option>
+            <option>China</option>
+        </datalist>
+
+      
+        Enter Pin Code:<input type="text" id="Pin " name="Pin Code" placeholder="Pin"><br><br>
+    </fieldset>
+    Upload Resume: <input type="file" id="file" name="file" multiple><br><br>
+    <input type="submit">
+
+
+
+        
+
+
+
+
+    </form>
+</body>
+</html>
