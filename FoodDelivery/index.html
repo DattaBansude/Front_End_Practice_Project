@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            background-color: rgb(116, 193, 241);
+            
+        }
+        .header{
+            border-bottom: 2px solid black;
+            border-bottom: groove;
+        }
+        #logo{
+            height: 100px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 50%;
+            opacity: 0.6;
+        
+        }
+        .nav{
+            margin-left: 200px;
+            padding-top: 35px;
+            font-size:  1.5rem;
+            color: rgb(3, 3, 14);
+            
+        }
+        .nav:hover{
+             
+        }
+        #ico{
+             height: 32px;
+             width: 35%;
+             margin-left: 2px;
+             padding-top: 2px;
+             cursor: pointer;
+        }
+        .icon{
+            display: flex;
+            margin-left: 450px;
+            padding-top: 28px;
+        }
+        #search{
+            height: 25px;
+            border-radius: 20px;
+            background-color: rgb(237, 242, 243);
+            border: none;
+        }
+        a{
+            margin-left: 30px;
+            text-decoration: none;
+        }
+        a:hover{
+        background-color: rgb(147, 131, 219);
+        padding: 4px;
+        border-radius: 20px;
+        color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header class="nav-bar">
+            <div  class="logo">
+                  <img  src="./assets/images (1).jpeg" alt="" id="logo">
+            </div>
+            <div class="nav">
+                 <a href="#">Home</a>
+                 <a href="#">Menu</a>
+                 <a href="#">Contact us</a>
+                 <a href="#">About us</a>
+            </div>
+            <div class="icon">
+                <input type="text" id="search" name="search" placeholder="search here...">
+             <label for="search">   <img src="./assets/searchicon.png" alt="search" id="ico"></label>
+            </div>
+        </header>
+    </div>
+</body>
+</html>

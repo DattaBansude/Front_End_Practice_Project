@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://wallpapercave.com/wp/wp9506513.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.menu ul {
+    margin-left: 0px;
+    list-style: none;
+    height: 200px;
+
+}
+
+.menu ul li {
+    background-color: black;
+    border: 2px solid white;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    background: transparent;
+    display: block;
+
+}
+
+.menu ul li a:hover {
+
+    background-color: green;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.logo {
+    width: 130px;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    opacity: 0.9;
+    border-radius: 50%;
+
+
+
+}
+
+.row h5 {
+    color: rgb(248, 244, 244);
+    margin: 20px 0px 0px 400px;
+    font-size: 80px;
+    background-color: black;
+
+}
+
+h5 {
+    width: 50%;
+    background: transparent;
+    opacity: 0.7;
+}
+
+.row h4 {
+    color: rgb(231, 21, 119);
+    margin: 100px 0px 0px 550px;
+    font-size: 50px;
+}
+
+.row h4 span {
+    color: rgb(132, 3, 63);
+    font-size: 50px;
+    /* margin-top: 50px; */
+    /* padding: 20px;  */
+}
+
+h4 {
+    background-color: rgb(248, 249, 250);
+    width: 30%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.row p {
+    color: rgb(221, 221, 235);
+    /* margin-left: 180px;  */
+    margin: 40px 0px 0px 550px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+/* .row button{
+    margin: 70px 0px 0px 650px;
+    font-size: 30px;
+}
+.row button:hover
+{
+    background-color: black;
+    color: white;
+} */
+#head {
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.v5B-7P9mIbWZ6eCncnZaigHaNK?w=214&h=380&c=7&o=5&dpr=1.3&pid=1.7");
+    cursor: pointer;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* #head:hover{
+    text-shadow: 0 0 5px rgb(236, 239, 241),0 0 15px rgb(222, 234, 239),0 0 20px rgb(231, 225, 228),0 0 100px rgb(242, 238, 234);
+} */
+/* Features Section */
+.feat {
+    background-color: white;
+    opacity: 0.7;
+
+}
+
+.features {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.feature {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.feature img {
+    width: 72px;
+}
+
+.feature:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.body {
+    background-color: lightgray;
+    ;
+}
+
+.main_card {
+    background-color: lightgray;
+    margin-top: 5px;
+    display: flex;
+}
+
+.card {
+    background-color: aliceblue;
+    height: 420px;
+    width: 23%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#img {
+    height: 250px;
+    width: 300px;
+
+
+
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.btn {
+    padding: 5px;
+    margin-top: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: x-large;
+    background-color: rgb(251, 4, 4);
+    color: rgb(248, 247, 247);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 6px 8px 0px goldenrod;
+    display: inline block;
+
+}
+
+.btn:hover {
+    background-color: green;
+    color: rgb(235, 233, 240);
+
+}
+
+.btn:active {
+    background-color: rgb(254, 93, 93);
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.rate img {
+    height: 30px;
+    width: 30px;
+    margin-top: 18px;
+
+}
+
+.team_card {
+    border: 0px solid black;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgb(184, 179, 179), white, rgb(187, 181, 181));
+}
+
+.team_subcard {
+    border: 0px solid red;
+    width: 350px;
+    height: 330px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 4), 0 6px 2px 0 rgba(0, 0, 0, 0.35);
+    transition: transform 1s;
+    background-color: rgb(212, 202, 202);
+}
+
+.team_subcard img {
+    width: 100%;
+}
+
+.star {
+    border: 0px solid black;
+
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star img {
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+}
+
+#rating {
+    padding-top: 4px;
+}
+
+/* code for footer */
+
+footer {
+    background-color: #262525;
+}
+
+.link_lists h3 {
+    margin-bottom: 10px;
+    color: rgb(242, 237, 237);
+}
+
+.link_lists ul {
+    list-style: none;
+    color: rgb(242, 237, 237);
+}
+
+.link_lists ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: rgb(242, 237, 237);
+}
+
+.support h3 {
+    margin-bottom: 10px;
+    color: rgb(242, 237, 237);
+}
+
+.support input {
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}
+
+.footer_container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(242, 237, 237);
+}
+
+.icon_container {
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+    height: 32px;
+}
+
+.footer_logo img {
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: transparent;
+    opacity: 0.5;
+}
+
+.icon img {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.quicks li a {
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: rgb(242, 237, 237);
+}
+
+.sup {
+    height: 25px;
+    font-size: large;
+}
+
+/* codde for about */
+
+.aboutus {
+    height: 90vh;
+    width: 100%;
+    /* margin: 70px 90px; */
+    display: flex;
+
+
+}
+
+.img img {
+    margin: 75px 0px 75px 60px;
+    height: 40vh;
+    width: 30vw;
+    box-shadow: 2px 2px 3px 5px black;
+
+
+}
+
+.imgset {
+    display: flex;
+
+}
+
+.img2 img {
+    height: 15vh;
+    width: 10vw;
+    margin: 2px 0px 60px 100px;
+}
+
+.img3 img {
+    height: 15vh;
+    width: 10vw;
+    margin: 2px 0px 60px 100px;
+}
+
+.img4 img {
+    height: 15vh;
+    width: 10vw;
+    margin: 85px 0px 0px 80px;
+    box-shadow: 2px 2px 3px 5px black;
+}
+
+.img5 img {
+    height: 15vh;
+    width: 10vw;
+    margin: 70px 0px 0px 80px;
+    box-shadow: 2px 2px 3px 5px black;
+}
+
+.img6 img {
+    height: 15vh;
+    width: 10vw;
+    margin: 85px 0px 0px 80px;
+    box-shadow: 2px 2px 3px 5px black;
+}
+
+.About {
+    height: 70vh;
+    width: 50vw;
+}
+
+.about_info h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+}
+
+
+
+.about_info pre {
+    font-size: 22px;
+    margin: 0px 0px 0px -200px;
+    color: white;
+}
+
+.about_body {
+    background: linear-gradient(rgb(242, 165, 165), rgb(131, 181, 220), rgb(124, 124, 227), rgb(217, 110, 217));
+}
+
+/* css for non-veg thali */
+.subcard {
+    border: 0px solid red;
+    width: 300px;
+    height: 410px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 4), 0 6px 2px 0 rgba(0, 0, 0, 0.35);
+    background: linear-gradient(rgb(216, 74, 98), rgb(235, 228, 228), rgb(111, 111, 225));
+    text-align: center;
+
+}
+
+.main_subcard {
+    padding: 20px 20px 20px 20px;
+
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.veg_body {
+    background: linear-gradient(rgb(49, 49, 234), rgb(135, 16, 135), rgb(222, 116, 116));
+}
+
+.Nonveg_body {
+    background: linear-gradient(rgb(209, 209, 123), rgb(244, 185, 75), rgb(215, 31, 215));
+}
+
+.fastfood_body {
+    background: linear-gradient(rgb(37, 245, 37), rgb(123, 113, 113), rgb(254, 28, 28));
+}
+
+.price {
+    color: green;
+}
+
+.thali_name {
+    font-weight: 500;
+}
+
+/* codefor order */
+.order {
+
+    background: linear-gradient(rgb(216, 212, 212) rgb(115, 129, 234), rgb(183, 178, 178));
+
+}
+
+.order_body {
+    background: linear-gradient(rgb(231, 164, 164), rgb(181, 181, 241)), rgb(134, 120, 134);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+table {
+
+    height: 450px;
+}
+
+td {
+    font-size: 30px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid green;
+    font-size: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 2px solid green;
+    font-size: 30px;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    border: 2px solid green;
+    font-size: 30px;
+}
+
+input[type=button]:hover {
+    background-color: black;
+    color: white;
+}
+
+/* contact codd css */
+
+.cont {
+    background-image: url("./assets/location_bg.jpeg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 10px 0px 20px;
+}
+
+.contact {
+    width: 100%;
+    height: 570px;
+    border: 0px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_content {
+    width: 49%;
+    height: 500px;
+    border: 0px solid green;
+    float: left;
+    padding: 20px;
+}
+
+
+table {
+
+    height: 500px;
+}
+
+td {
+    font-size: 30px;
+}
+
+input {
+    width: 95%;
+    height: 40px;
+    border: 2px solid green;
+    font-size: 30px;
+}
+
+textarea {
+    width: 95%;
+    height: 100px;
+    border: 2px solid green;
+    font-size: 30px;
+}
+
+select {
+    width: 95%;
+    height: 40px;
+    border: 2px solid green;
+    font-size: 30px;
+}
+
+input[type=button]:hover {
+    background-color: black;
+    color: white;
+}
